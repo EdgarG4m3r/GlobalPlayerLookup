@@ -1,0 +1,11 @@
+api:
+  username:
+  token:
+  address:
+
+cache:
+  enabled: true
+  concurrency: 4
+  max_size: 1000
+  expire_time: 6
+  expire_time-unit: HOURS

@@ -1,0 +1,5 @@
+main: dev.apollo.luckynetwork.globalplayerlookup.javaclient.spigot.GlobalPlayerLookupSpigot
+name: GlobalPlayerLookupSpigot
+version: 1.0.0
+author: FacedApollo
+description: GlobalPlayerLookup Client wrapper for Spigot

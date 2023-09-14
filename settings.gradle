@@ -1,0 +1,11 @@
+rootProject.name = 'GlobalPlayerLookup'
+include ':service'
+include ':commons'
+include ':java-client'
+include ':spigot-client'
+include ':velocity-client'
+include 'commons'
+include 'java-client'
+include 'velocity-client'
+include 'spigot-client'
+

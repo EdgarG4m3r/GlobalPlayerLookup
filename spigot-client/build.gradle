@@ -1,0 +1,20 @@
+plugins {
+    id 'java'
+    id 'com.github.johnrengelman.shadow' version '7.1.2'
+}
+
+group 'dev.apollo.luckynetwork.globalplayerlookup'
+
+repositories {
+    mavenCentral()
+
+    maven {
+        url = uri('https://repo.papermc.io/repository/maven-public/')
+    }
+}
+
+dependencies {
+    implementation project (':commons')
+    implementation project (':java-client')
+    implementation group: 'org.github.paperspigot', name: 'paperspigot-api', version: '1.8.8-R0.1-SNAPSHOT'
+}
